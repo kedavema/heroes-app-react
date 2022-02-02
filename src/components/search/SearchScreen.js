@@ -64,7 +64,7 @@ export const SearchScreen = () => {
           }
 
           {
-            heroesFiltered.map( hero => (
+            heroesFiltered?.map( hero => (
               <HeroCard 
                 key={ hero.id }
                 { ...hero }
